@@ -221,7 +221,7 @@ io.on('connection', async (socket) => {
             if (publicId) {
                 try {
                     await cloudinary.uploader.destroy(publicId);
-                    console.log(`🗑️ Deleted Cloudinary image: ${publicId}`);
+                    console.log(`Deleted Cloudinary image: ${publicId}`);
                 } catch (err) {
                     // Don't block the complaint deletion just because Cloudinary cleanup failed —
                     // the record is already gone from the dashboard either way.
