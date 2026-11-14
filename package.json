@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@google/genai": "^1.52.0",
+    "cloudinary": "^2.10.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.2.1",
+    "go": "^3.0.1",
+    "multer": "^2.2.0",
+    "ngrok": "^5.0.0-beta.2",
+    "pg": "^8.11.0",
+    "qrcode": "^1.5.4",
+    "render": "^0.1.4",
+    "socket.io": "^4.8.3",
+    "storage": "^0.2.0"
+  },
+  "name": "hp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reserver.js",
+  "scripts": {
+    "start": "node rekserver.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
